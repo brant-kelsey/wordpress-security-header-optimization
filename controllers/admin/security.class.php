@@ -119,7 +119,7 @@ class AdminSecurity extends ModuleAdminController implements Module_Admin_Contro
      */
     public static function plugin_row_meta($links, $file)
     {
-        if ($file == $this->core->modules('http2')->basename()) {
+        if ($file == $this->core->modules('security')->basename()) {
             $lgcode = strtolower(get_locale());
             if (strpos($lgcode, '_') !== false) {
                 $lgparts = explode('_', $lgcode);
@@ -144,9 +144,8 @@ class AdminSecurity extends ModuleAdminController implements Module_Admin_Contro
      */
     public function plugin_title()
     {
-        ?><script>jQuery(function($){var r=$('*[data-plugin="<?php print $this->core->modules('http2')->basename(); ?>"]');
-            $('.plugin-title strong',r).html('<?php print $this->core->modules('http2')->name(); ?><a href="https://optimization.team" class="g100" style="font-size: 10px;float: right;font-weight: normal;opacity: .2;line-height: 14px;">O10N</span>');
-            var d=$('.plugin-description',r).html();$('.plugin-description',r).html(d.replace('Google PageSpeed','<a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">Google PageSpeed</a>').replace('Google Lighthouse','<a href="https://developers.google.com/web/tools/lighthouse/" target="_blank">Google Lighthouse</a>').replace('ThinkWithGoogle.com','<a href="https://testmysite.thinkwithgoogle.com/" target="_blank">ThinkWithGoogle.com</a>').replace('Excellent','<span style="font-style:italic;color:#079c2d;">Excellent</span>'));
+        ?><script>jQuery(function($){var r=$('*[data-plugin="<?php print $this->core->modules('security')->basename(); ?>"]');
+            $('.plugin-title strong',r).html('<?php print $this->core->modules('security')->name(); ?><a href="https://optimization.team" class="g100" style="font-size: 10px;float: right;font-weight: normal;opacity: .2;line-height: 14px;">O10N</span>');
 });</script><?php
     }
 }

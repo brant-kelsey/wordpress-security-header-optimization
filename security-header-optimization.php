@@ -12,7 +12,7 @@ namespace O10n;
  * @wordpress-plugin
  * Plugin Name:       Security Header Optimization
  * Description:       Advanced security header optimization toolkit. Content-Security-Policy, Strict Transport Security (HSTS), Public-Key-Pins (HPKP), X-XSS-Protection and CORS.
- * Version:           0.0.1
+ * Version:           0.0.2
  * Author:            Optimization.Team
  * Author URI:        https://optimization.team/
  * Text Domain:       o10n
@@ -29,8 +29,8 @@ if (defined('WP_INSTALLING') && WP_INSTALLING) {
 }
 
 // settings
-$module_version = '0.0.1';
-$minimum_core_version = '0.0.5';
+$module_version = '0.0.2';
+$minimum_core_version = '0.0.6';
 $plugin_path = dirname(__FILE__);
 
 // load the optimization module loader
