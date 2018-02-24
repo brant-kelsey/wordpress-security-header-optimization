@@ -39,6 +39,10 @@ Documentation is available on [Github](https://github.com/o10n-x/wordpress-secur
 
 == Changelog ==
 
+= 0.0.3 =
+
+Core update (see changelog.txt)
+
 = 0.0.2 =
 
 Bugfix: error after activating plugin.
