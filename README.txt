@@ -5,7 +5,7 @@ Tags: csp, security, http headers, optimization, content security policy, xss, a
 Requires at least: 4.0
 Requires PHP: 5.4
 Tested up to: 4.9.4
-Stable tag: 0.0.9
+Stable tag: 0.0.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ Documentation is available on [Github](https://github.com/o10n-x/wordpress-secur
 
 
 == Changelog ==
+
+= 0.0.10 =
+* Bugfix: uninstaller.
 
 = 0.0.9 =
 Bugfix: settings link on plugin index.
