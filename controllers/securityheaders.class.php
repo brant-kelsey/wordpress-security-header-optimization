@@ -163,7 +163,7 @@ class Securityheaders extends Controller implements Controller_Interface
                 }
             } else {
                 if ($mode === 'block') {
-                    $mode = '1; block';
+                    $mode = '1; mode=block';
                 } else {
                     $mode = ($mode === '0') ? '0' : '1';
                 }
